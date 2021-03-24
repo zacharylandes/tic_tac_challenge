@@ -27,9 +27,13 @@ please make sure these tools exists on your machine or there could be issues!
 clone this repository
 
  `bundle install`
+ 
  `rake db:create`
+ 
  `rake db:migrate`
+ 
  `rspec` to see passing tests
+ 
  `./bin/webpack-dev-server` to run the webpack server
 
 `rails s` to start the server

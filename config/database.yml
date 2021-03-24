@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  database: tic_tac_dev
+  pool: 5
+  username: postgres
+  password:
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: tic_tac_dev
+  pool: 5
+  username: postgres
+  password:
+test:
+  <<: *default
+  database: tic_tac_test

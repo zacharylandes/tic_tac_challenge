@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tic Tac Challenge
 
-Things you may want to cover:
 
-* Ruby version
+This app uses a Ruby on Rails PostrgreSQL backend with a Vue.js frontend. 
 
-* System dependencies
+It depends on 
 
-* Configuration
+Node
+Yarn
+Rspec
+Vue
+PostgreSQL
+Ruby 2.6.3
+Rails 6.1.3
 
-* Database creation
+please make sure these tools exists on your machine or there could be issues!
 
-* Database initialization
+clone this repository
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+run `bundle install`
+run `rspec` to see passing tests
+run `./bin/webpack-dev-server` to run the webpack server
+run `rails s` to start the server
+then you should see the app running on "http://localhost:3000/games"

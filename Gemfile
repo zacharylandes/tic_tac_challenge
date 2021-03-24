@@ -49,6 +49,7 @@ group :development do
 end
 
 group :test do
+  gem 'pry'
   gem 'database_cleaner'
 
   gem "factory_bot_rails"
